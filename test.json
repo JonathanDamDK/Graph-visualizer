@@ -1,0 +1,23 @@
+{
+  "nodes" : [{ "data" : {
+    "id" : "n1",
+    "labels" : ["Npc", "World_0"],
+    "properties" : {"name": "Bob",
+      "description": "Bob is an old priest whose hardships have turned him into a cynic. Although he never misses a sermon, he is often seen drinking in the local tavern.", 
+      "traits": "Bob is a gaunt, weathered old priest with deep-set, weary eyes and a perpetually furrowed brow. He has a stern appearance, with a righteous air but a barely perceptible scent of alcohol lingers on his tattered robes."
+    }
+  }
+  },
+    { "data" : {
+      "id" : "n2" , 
+      "labels" : ["SocialArena", "World_0"],
+      "properties" : {"name": "Personal",
+        "context" : "Being a priest, Bob's family, friends and the Amberfield parish are identical.", 
+        "secrecy" : "Public"  }
+    }
+}],
+  "edges" : [
+    {"data" : {"id" : "e1", "labels" : ["AUX"], "source" : "n1", "target" :  "n2", "properties" : {"testing" : "test"}}}
+  ]
+
+}
