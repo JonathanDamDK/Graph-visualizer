@@ -1,6 +1,6 @@
 fetch('http://localhost:3000/test.json').then((response) => {
   console.log(response); response.json().then((data) => {
-    console.log(data);
+    console.log(data.nodes);
     if (data.edges && data.edges.length > 0) {
       combined = data.nodes.concat(data.edges)
    }else{

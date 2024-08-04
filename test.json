@@ -1,21 +1,188 @@
 {
-  "nodes" : [{ "data" : {
-    "id" : "n1",
-    "labels" : ["Npc", "World_0"],
-    "properties" : {"name": "Bob",
-      "description": "Bob is an old priest whose hardships have turned him into a cynic. Although he never misses a sermon, he is often seen drinking in the local tavern.", 
-      "traits": "Bob is a gaunt, weathered old priest with deep-set, weary eyes and a perpetually furrowed brow. He has a stern appearance, with a righteous air but a barely perceptible scent of alcohol lingers on his tattered robes."
-    }
-  }
-  },
-    { "data" : {
-      "id" : "n2" , 
-      "labels" : ["SocialArena", "World_0"],
-      "properties" : {"name": "Personal",
-        "context" : "Being a priest, Bob's family, friends and the Amberfield parish are identical.", 
-        "secrecy" : "Public"  }
-    }
-}],
+      "nodes": [
+        {
+            "data": {
+                "id": "n0",
+                "labels": [
+                    "Npc",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Bob",
+                    "description": "Bob is an old priest whose hardships have turned him into a cynic. Although he never misses a sermon, he is often seen drinking in the local tavern.",
+                    "traits": "Bob is a gaunt, weathered old priest with deep-set, weary eyes and a perpetually furrowed brow. He has a stern appearance, with a righteous air but a barely perceptible scent of alcohol lingers on his tattered robes."
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n3",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Personal",
+                    "context": "Being a priest, Bob's family, friends and the Amberfield parish are identical.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n13",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Occupation",
+                    "context": "Although frequently drunk in the evenings, Bob is reliable in his role as priest, but his cynical worldview is noticeable in his preachings. He is strict with the novices in the abbey.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n14",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Occupation",
+                    "context": "Bob's cynicism often gives way to hedonism, anger and a nihilistic worldview. He is disillusioned with God. ",
+                    "secrecy": "Secret"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n1",
+                "labels": [
+                    "Npc",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Alice",
+                    "description": "Strict and pious, Alice has recently joined Amberfield Abbey as a novice, after her husband Charlie was excommunicated from the Catholic Church, on grounds of being a thief.",
+                    "traits": "Alice is a young but formidable woman with hard eyes that speak of many hardships, embodying strict piety and resilience despite her youth, which is often forgotten due to her stern demeanor"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n4",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Family",
+                    "context": "What little family Alice has remaining have shunned her after Charlie's expulsion from the Catholic Church.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n5",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Personal",
+                    "context": "The friends Alice had prior to Charlie's ousting from the Catholic Church have all turned their backs on her. Thus her social circle consists now of the other nuns and clergy in Amberfield Abbey.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n15",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Occupation",
+                    "context": "Alice is desperately searching for meaning and stability within the Church.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n2",
+                "labels": [
+                    "Npc",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Charlie",
+                    "description": "Outgoing and helpful, Charlie is a skilled carpenter. He was recently exposed as a thief and high-ranking member of the Thieves Guild, who has been scamming the church out of money for years, under the guise of rennovating Amberfield Abbey.",
+                    "traits": "Charlie is a muscular and grizzled carpenter with a friendly demeanor, but every now and then, a scary gleam in his eyes makes you wonder what he is truly capable of."
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n6",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Personal",
+                    "context": "Beside the shady characters at Schiddy's inn, Charlie has been shunned by all the people in Amberfield.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n7",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Family",
+                    "context": "Charlie's has no children and his wife Alice, has shunned him since he was exposed as a thief.",
+                    "secrecy": "Public"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n16",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Occupation",
+                    "context": "Charlie is egotistical, cunning and assertive.",
+                    "secrecy": "Secret"
+                }
+            }
+        },
+        {
+            "data": {
+                "id": "n17",
+                "labels": [
+                    "SocialArena",
+                    "World_0"
+                ],
+                "properties": {
+                    "name": "Occupation",
+                    "context": "A skilled craftsman, helpful, but with a keen sense for making money.",
+                    "secrecy": "Public"
+                }
+            }
+        }
+    ],
   "edges" : [
     {"data" : {"id" : "e1", "labels" : ["AUX"], "source" : "n1", "target" :  "n2", "properties" : {"testing" : "test"}}}
   ]
